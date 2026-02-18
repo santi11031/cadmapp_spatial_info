@@ -1,0 +1,65 @@
+
+1) Reconocedor 
+ 
+ *Descargar información espacial de predios que se encuentren en el #modelo_cca_interno_v3.cca_predio.estado_asignacion 'revisado', 'asignado' se podrá descargar la información de terrenos y unidades de construcciones descargar 
+ 
+ Opciones
+ 
+ -GDB
+ -GPKG
+ -GEOJSON
+ -SHP
+
+* Cargar la información del archivo definido dentro de la base de datos cuando en el #modelo_cca_interno_v3.cca_predio.estado_asignacion 'revisado', 'asignado'
+
+ Opciones
+ 
+ -GDB
+ -GPKG
+ -GEOJSON
+ -SHP
+
+
+2) Soporte o lider SIG 
+
+ *Descargar información espacial de predios que se encuentren en el #modelo_cca_interno_v3.cca_predio.estado_asignacion 'aprobado_lider', 'aprobado_sig' se podrá descargar la información de terrenos y unidades de construcciones descargar 
+ 
+ Opciones
+ 
+ -GDB
+ -GPKG
+ -GEOJSON
+ -SHP
+
+* Cargar la información del archivo definido dentro de la base de datos cuando en el #modelo_cca_interno_v3.cca_predio.estado_asignacion 'aprobado_lider', 'aprobado_sig'
+
+ Opciones
+ 
+ -GDB
+ -GPKG
+ -GEOJSON
+ -SHP
+ 
+ * Descargar información espacial del municipio (UNIDADES DE CONSTRUCCION, DIRECCIONES Y TERRENOS)
+ 
+  Opciones
+ 
+ -GDB
+ -GPKG
+ -GEOJSON
+ -SHP
+ 
+3) Soporte 
+
+
+ * Descargar información espacial del municipio (UNIDADES DE CONSTRUCCION, DIRECCIONES Y TERRENOS), pero tiene que tener filtros (por reconocedor, por coordinador, por lider de campo, por conservación, por líder sig, por calidad)
+ 
+  Opciones
+ 
+ -GDB
+ -GPKG
+ -GEOJSON
+ -SHP
+ 
+ 
+ * Cargar la información del archivo definido dentro de la base de datos cuando pero tiene que tener filtros (por reconocedor, por coordinador, por lider de campo, por conservación, por líder sig, por calidad)
