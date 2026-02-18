@@ -1,0 +1,23 @@
+<!-- counter/templates/counter/counter.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Counter Example</title>
+    <!-- djust automatically injects client.js - no script tag needed -->
+</head>
+<body>
+    <div style="text-align: center; padding: 2rem;">
+        <h1>Counter Example</h1>
+
+        <div style="font-size: 4rem; margin: 2rem 0;">
+            {{ count }}
+        </div>
+
+        <div>
+            <button dj-click="decrement">-</button>
+            <button dj-click="reset">Reset</button>
+            <button dj-click="increment">+</button>
+        </div>
+    </div>
+</body>
+</html>
